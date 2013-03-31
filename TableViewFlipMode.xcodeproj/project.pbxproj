@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4939B411708FA5700C23CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4939B401708FA5700C23CA4 /* UIKit.framework */; };
+		D4939B431708FA5700C23CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4939B421708FA5700C23CA4 /* Foundation.framework */; };
+		D4939B451708FA5700C23CA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4939B441708FA5700C23CA4 /* CoreGraphics.framework */; };
+		D4939B4B1708FA5700C23CA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4939B491708FA5700C23CA4 /* InfoPlist.strings */; };
+		D4939B4D1708FA5700C23CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4939B4C1708FA5700C23CA4 /* main.m */; };
+		D4939B511708FA5700C23CA4 /* RPNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4939B501708FA5700C23CA4 /* RPNAppDelegate.m */; };
+		D4939B531708FA5700C23CA4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D4939B521708FA5700C23CA4 /* Default.png */; };
+		D4939B551708FA5700C23CA4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4939B541708FA5700C23CA4 /* Default@2x.png */; };
+		D4939B571708FA5700C23CA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4939B561708FA5700C23CA4 /* Default-568h@2x.png */; };
+		D4939B631708FA5700C23CA4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4939B611708FA5700C23CA4 /* MainStoryboard.storyboard */; };
+		D4939B6B1708FE3000C23CA4 /* RPNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4939B6A1708FE3000C23CA4 /* RPNTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4939B3D1708FA5700C23CA4 /* TableViewFlipMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewFlipMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4939B401708FA5700C23CA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4939B421708FA5700C23CA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4939B441708FA5700C23CA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4939B481708FA5700C23CA4 /* TableViewFlipMode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewFlipMode-Info.plist"; sourceTree = "<group>"; };
+		D4939B4A1708FA5700C23CA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4939B4C1708FA5700C23CA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4939B4E1708FA5700C23CA4 /* TableViewFlipMode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewFlipMode-Prefix.pch"; sourceTree = "<group>"; };
+		D4939B4F1708FA5700C23CA4 /* RPNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPNAppDelegate.h; sourceTree = "<group>"; };
+		D4939B501708FA5700C23CA4 /* RPNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPNAppDelegate.m; sourceTree = "<group>"; };
+		D4939B521708FA5700C23CA4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D4939B541708FA5700C23CA4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D4939B561708FA5700C23CA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4939B621708FA5700C23CA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D4939B691708FE3000C23CA4 /* RPNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPNTableViewController.h; sourceTree = "<group>"; };
+		D4939B6A1708FE3000C23CA4 /* RPNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4939B3A1708FA5700C23CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4939B411708FA5700C23CA4 /* UIKit.framework in Frameworks */,
+				D4939B431708FA5700C23CA4 /* Foundation.framework in Frameworks */,
+				D4939B451708FA5700C23CA4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4939B341708FA5700C23CA4 = {
+			isa = PBXGroup;
+			children = (
+				D4939B461708FA5700C23CA4 /* TableViewFlipMode */,
+				D4939B3F1708FA5700C23CA4 /* Frameworks */,
+				D4939B3E1708FA5700C23CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4939B3E1708FA5700C23CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4939B3D1708FA5700C23CA4 /* TableViewFlipMode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4939B3F1708FA5700C23CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4939B401708FA5700C23CA4 /* UIKit.framework */,
+				D4939B421708FA5700C23CA4 /* Foundation.framework */,
+				D4939B441708FA5700C23CA4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4939B461708FA5700C23CA4 /* TableViewFlipMode */ = {
+			isa = PBXGroup;
+			children = (
+				D4939B4F1708FA5700C23CA4 /* RPNAppDelegate.h */,
+				D4939B501708FA5700C23CA4 /* RPNAppDelegate.m */,
+				D4939B691708FE3000C23CA4 /* RPNTableViewController.h */,
+				D4939B6A1708FE3000C23CA4 /* RPNTableViewController.m */,
+				D4939B611708FA5700C23CA4 /* MainStoryboard.storyboard */,
+				D4939B471708FA5700C23CA4 /* Supporting Files */,
+			);
+			path = TableViewFlipMode;
+			sourceTree = "<group>";
+		};
+		D4939B471708FA5700C23CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4939B481708FA5700C23CA4 /* TableViewFlipMode-Info.plist */,
+				D4939B491708FA5700C23CA4 /* InfoPlist.strings */,
+				D4939B4C1708FA5700C23CA4 /* main.m */,
+				D4939B4E1708FA5700C23CA4 /* TableViewFlipMode-Prefix.pch */,
+				D4939B521708FA5700C23CA4 /* Default.png */,
+				D4939B541708FA5700C23CA4 /* Default@2x.png */,
+				D4939B561708FA5700C23CA4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4939B3C1708FA5700C23CA4 /* TableViewFlipMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4939B661708FA5700C23CA4 /* Build configuration list for PBXNativeTarget "TableViewFlipMode" */;
+			buildPhases = (
+				D4939B391708FA5700C23CA4 /* Sources */,
+				D4939B3A1708FA5700C23CA4 /* Frameworks */,
+				D4939B3B1708FA5700C23CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewFlipMode;
+			productName = TableViewFlipMode;
+			productReference = D4939B3D1708FA5700C23CA4 /* TableViewFlipMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4939B351708FA5700C23CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RPN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Rob Nadin";
+			};
+			buildConfigurationList = D4939B381708FA5700C23CA4 /* Build configuration list for PBXProject "TableViewFlipMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4939B341708FA5700C23CA4;
+			productRefGroup = D4939B3E1708FA5700C23CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4939B3C1708FA5700C23CA4 /* TableViewFlipMode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4939B3B1708FA5700C23CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4939B4B1708FA5700C23CA4 /* InfoPlist.strings in Resources */,
+				D4939B531708FA5700C23CA4 /* Default.png in Resources */,
+				D4939B551708FA5700C23CA4 /* Default@2x.png in Resources */,
+				D4939B571708FA5700C23CA4 /* Default-568h@2x.png in Resources */,
+				D4939B631708FA5700C23CA4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4939B391708FA5700C23CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4939B4D1708FA5700C23CA4 /* main.m in Sources */,
+				D4939B511708FA5700C23CA4 /* RPNAppDelegate.m in Sources */,
+				D4939B6B1708FE3000C23CA4 /* RPNTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4939B491708FA5700C23CA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4939B4A1708FA5700C23CA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4939B611708FA5700C23CA4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4939B621708FA5700C23CA4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4939B641708FA5700C23CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4939B651708FA5700C23CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4939B671708FA5700C23CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewFlipMode/TableViewFlipMode-Prefix.pch";
+				INFOPLIST_FILE = "TableViewFlipMode/TableViewFlipMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4939B681708FA5700C23CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewFlipMode/TableViewFlipMode-Prefix.pch";
+				INFOPLIST_FILE = "TableViewFlipMode/TableViewFlipMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4939B381708FA5700C23CA4 /* Build configuration list for PBXProject "TableViewFlipMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4939B641708FA5700C23CA4 /* Debug */,
+				D4939B651708FA5700C23CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4939B661708FA5700C23CA4 /* Build configuration list for PBXNativeTarget "TableViewFlipMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4939B671708FA5700C23CA4 /* Debug */,
+				D4939B681708FA5700C23CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4939B351708FA5700C23CA4 /* Project object */;
+}
